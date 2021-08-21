@@ -121,3 +121,6 @@ main {
   color: #fff;
   cursor: pointer;
 }
+path.current-floor {
+  opacity: 1;
+}
