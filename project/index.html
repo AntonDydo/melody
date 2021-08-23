@@ -21,7 +21,8 @@
           <a href="./index.html" class="logo">
             <img src="image/logo.svg" alt="Логотип" />
           </a>
-          <nav class="navbar-nav">
+
+          <nav class="navbar-nav to-hide">
             <ul class="navbar-menu">
               <li class="navbar-item">
                 <a href="#" class="navbar-link"
@@ -49,7 +50,7 @@
               </li>
             </ul>
           </nav>
-          <div class="navbar-contacts">
+          <div class="navbar-contacts to-hide">
             <span class="navbar-text">Заказать звонок</span>
             <a class="navbar-phone" href="tel: +7843123-45-67"
               >8 (843) 123-45-67</a
@@ -60,12 +61,10 @@
     </header>
     <!-- /.header -->
     <main class="main">
-      <div class="container">
+      <div class="container main-container">
         <div class="main-image">
           <svg
             class="home-image"
-            width="734"
-            height="640"
             viewBox="0 0 734 640"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -227,16 +226,16 @@
       <div class="container">
         <div class="footer-container">
           <div class="contact-info">
-            <div class="logo-standart-stroy">
+            <div class="logo-standart-stroy contact-info-item">
               <img src="image/standart.png" alt="Логотип 'Стандарт строй'" />
             </div>
-            <div class="footer-contacts">
+            <div class="footer-contacts contact-info-item">
               <h4 class="footer-contact-text">Заказать звонок</h4>
               <a class="footer-phone" href="tel: +7843123-45-67"
                 >8 (843) 123-45-67</a
               >
             </div>
-            <div class="logo-group">
+            <div class="logo-group contact-info-item">
               <img
                 src="image/sociallogos.svg"
                 alt="Логотипы социальных сетей"
@@ -244,13 +243,13 @@
             </div>
           </div>
           <ul class="footer-links">
-            <a href="">
+            <a class="footer-link-item" href="">
               <li class="footer-link-item">Политика конфиденциальности</li>
             </a>
-            <a href="">
+            <a class="footer-link-item" href="">
               <li class="footer-link-item">Публичная оферта</li>
             </a>
-            <a href="">
+            <a class="footer-link-item" href="">
               <li class="footer-link-item">Контакты</li>
             </a>
           </ul>
@@ -276,7 +275,11 @@
           <h3 class="modal-title">
             Этаж <span class="modal-counter">02</span>
           </h3>
-          <img src="image/floor.png" alt="схема этажа" />
+          <img
+            class="modal-image-photo"
+            src="image/floor.png"
+            alt="схема этажа"
+          />
         </div>
         <div class="modal-info">
           <h3 class="modal-title">Выберите квартиру</h3>
