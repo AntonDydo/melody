@@ -74,6 +74,10 @@
   right: 27px;
   cursor: pointer;
 }
+.modal-info {
+  padding: 50px 46px;
+  width: 40%;
+}
 /* hidden menu */
 nav.menu {
   display: none;
@@ -174,13 +178,25 @@ li.bot {
     display: flex;
     flex-direction: column;
   }
+  .flat-item {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .modal-title {
+    margin: 0 auto;
+    text-align: center;
+  }
   .modal-image {
     width: 100%;
   }
-  .modal-info {
-    
-    
+  .modal-alert {
     margin: 0 auto;
+    text-align: center;
+  }
+  .modal-info {
+    margin: 0 auto;
+    width: 80%;
   }
   .flat-list {
     margin: 0 auto;
@@ -237,6 +253,13 @@ li.bot {
   }
   nav.menu {
     display: block;
+  }
+  .footer-link-item {
+    font-size: 12px;
+  }
+
+  .contact-info {
+    font-size: 12px;
   }
 }
 
@@ -378,10 +401,7 @@ path.current-floor {
   margin-top: 0;
   margin-bottom: 25px;
 }
-.modal-info {
-  padding: 50px 46px;
-  width: 40%;
-}
+
 .flat-list {
   padding: 0;
   list-style: none;
@@ -409,14 +429,6 @@ path.current-floor {
   line-height: 19px;
   color: #635854;
   margin-top: 60px;
-}
-.modal-close-button {
-  position: absolute;
-  background-color: #fff;
-  border: none;
-  top: 38px;
-  right: 27px;
-  cursor: pointer;
 }
 
 /*footer*/
@@ -452,14 +464,4 @@ path.current-floor {
   list-style: none;
   display: flex;
   justify-content: space-between;
-}
-.footer-link-item {
-  margin: 0 0 0 20px;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  text-decoration-line: underline;
-  color: #635854;
 }
